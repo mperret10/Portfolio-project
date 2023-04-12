@@ -31,6 +31,7 @@ h1 {
   padding: 15px;
   border-radius: 4px;
   line-height: 27px;
+  display: inline-block;
 }
 .hero {
   background: var(--secondary-color);
@@ -45,4 +46,20 @@ h1 {
 }
 .hero h2 {
   font-family: "poppins", sans-serif;
+}
+.project-description {
+  text-align: center;
+  padding: 0;
+}
+div {
+  display: block;
+}
+h2 {
+  font-size: 44px;
+}
+.mb-5 {
+  margin-bottom: 3rem !important;
+}
+.btn-branding-outline {
+  margin: 20px;
 }
