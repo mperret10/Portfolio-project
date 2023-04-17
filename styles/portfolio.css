@@ -31,8 +31,11 @@ h1 {
   padding: 15px;
   border-radius: 4px;
   line-height: 27px;
-  display: inline-block;
+  display: inline-flex;
+  margin: 20px;
+  text-align: center;
 }
+
 .hero {
   background: var(--secondary-color);
   text-align: center;
@@ -47,19 +50,17 @@ h1 {
 .hero h2 {
   font-family: "poppins", sans-serif;
 }
-.project-description {
-  text-align: center;
-  padding: 0;
-}
+
 div {
   display: block;
+  margin: 0 auto;
 }
 h2 {
-  font-size: 44px;
+  font-size: 20px;
 }
-.mb-5 {
-  margin-bottom: 3rem !important;
-}
-.btn-branding-outline {
-  margin: 20px;
+
+.img-fluid {
+  max-width: 450px;
+  display: block;
+  margin: 0 auto;
 }
